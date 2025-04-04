@@ -31,15 +31,6 @@
         };
     };
 
-    macros {
-        mouse_prev: mouse_prev {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp>;
-            label = "MOUSE_PREV";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
